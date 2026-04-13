@@ -1,1 +1,0 @@
-/usr/bin/c++  -fopenmp -march=native CMakeFiles/measure_bpe_lcp.dir/measure_bpe_lcp.cpp.o -o measure_bpe_lcp  "/mnt/c/Users/gacar/OneDrive - University of Pisa/Escritorio/CRMQ/libsais/libsais.a"
