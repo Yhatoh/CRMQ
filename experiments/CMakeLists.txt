@@ -1,0 +1,2 @@
+add_executable(measure_bpe_lcp measure_bpe_lcp.cpp)
+target_link_libraries(measure_bpe_lcp PRIVATE cct_lib libsais)
