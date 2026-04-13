@@ -35,5 +35,18 @@ make -j8
 You can find our benchmarking suite and instructions on how to reproduce our results
 at the following links:
 
-* For non-compressed RMQ solutions: [NON COMPRESSED RMQ-EXPERIMENTS](https://github.com/FilippoLari/RMQ-experiments)
-* For compressed RMQ solutions: [COMPRESSED RMQ-EXPERIMENTS](https://github.com/Yhatoh/CRMQ-Experiments)
+* For uncompressed RMQ solutions: https://github.com/FilippoLari/RMQ-experiments
+* For compressed RMQ solutions: https://github.com/Yhatoh/CRMQ-Experiments
+
+## Credits
+
+If you use this project in a scientific article, please cite the following paper:
+
+```
+@inproceedings{CarmonaL26,
+    author = {Gabriel Carmona and Filippo Lari},
+    title = {Compressing Highly Repetitive Binary Trees with an Application to Range Minimum Queries},
+    booktitle = {Proc. 24th Symposium on Experimental Algorithms},
+    year = {2026},
+}
+```
