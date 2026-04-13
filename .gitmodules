@@ -1,0 +1,12 @@
+[submodule "bit_vector"]
+	path = bit_vector
+	url = git@github.com:pasta-toolbox/bit_vector.git
+[submodule "googletest"]
+	path = googletest
+	url = git@github.com:google/googletest.git
+[submodule "libsais"]
+	path = libsais
+	url = git@github.com:IlyaGrebnov/libsais.git
+[submodule "sdsl-lite"]
+	path = sdsl-lite
+	url = git@github.com:xxsds/sdsl-lite.git
