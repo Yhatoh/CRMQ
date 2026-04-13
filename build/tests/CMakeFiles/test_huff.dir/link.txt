@@ -1,0 +1,1 @@
+/usr/bin/c++  -fopenmp -march=native CMakeFiles/test_huff.dir/test_huff.cpp.o -o test_huff  "/mnt/c/Users/gacar/OneDrive - University of Pisa/Escritorio/CRMQ/libsais/libsais.a"

@@ -1,0 +1,1 @@
+/usr/bin/c++  -fopenmp -march=native CMakeFiles/test_rmq.dir/test_rmq.cpp.o -o test_rmq  "/mnt/c/Users/gacar/OneDrive - University of Pisa/Escritorio/CRMQ/libsais/libsais.a"

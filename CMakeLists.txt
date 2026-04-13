@@ -1,5 +1,5 @@
 cmake_minimum_required(VERSION 3.12)
-project(cct)
+project(CRMQ)
 
 set(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} -fopenmp")
 
@@ -11,14 +11,14 @@ if (COMPILER_SUPPORTS_MARCH_NATIVE)
     set(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} -march=native")
 endif ()
 
-add_library(cct_lib INTERFACE)
+add_library(CRMQ_lib INTERFACE)
 
-target_include_directories(cct_lib INTERFACE include sdsl-lite/include)
-target_include_directories(cct_lib INTERFACE include bit_vector/include)
-target_include_directories(cct_lib INTERFACE include bit_vector/_deps/pasta_utils-src/include)
-target_include_directories(cct_lib INTERFACE include bit_vector/_deps/tlx-src)
+target_include_directories(CRMQ_lib INTERFACE include sdsl-lite/include)
+target_include_directories(CRMQ_lib INTERFACE include bit_vector/include)
+target_include_directories(CRMQ_lib INTERFACE include bit_vector/_deps/pasta_utils-src/include)
+target_include_directories(CRMQ_lib INTERFACE include bit_vector/_deps/tlx-src)
 
-target_include_directories(cct_lib INTERFACE include libsais)
+target_include_directories(CRMQ_lib INTERFACE include libsais)
 
 set(LIBSAIS_DIR ${CMAKE_SOURCE_DIR}/libsais)
 set(LIBSAIS_LIB ${LIBSAIS_DIR}/libsais.a)

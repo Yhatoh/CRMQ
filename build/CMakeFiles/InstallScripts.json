@@ -1,0 +1,12 @@
+{
+	"InstallScripts" : 
+	[
+		"/mnt/c/Users/gacar/OneDrive - University of Pisa/Escritorio/CRMQ/build/cmake_install.cmake",
+		"/mnt/c/Users/gacar/OneDrive - University of Pisa/Escritorio/CRMQ/build/tests/cmake_install.cmake",
+		"/mnt/c/Users/gacar/OneDrive - University of Pisa/Escritorio/CRMQ/build/experiments/cmake_install.cmake",
+		"/mnt/c/Users/gacar/OneDrive - University of Pisa/Escritorio/CRMQ/build/googletest/cmake_install.cmake",
+		"/mnt/c/Users/gacar/OneDrive - University of Pisa/Escritorio/CRMQ/build/googletest/googlemock/cmake_install.cmake",
+		"/mnt/c/Users/gacar/OneDrive - University of Pisa/Escritorio/CRMQ/build/googletest/googletest/cmake_install.cmake"
+	],
+	"Parallel" : false
+}
